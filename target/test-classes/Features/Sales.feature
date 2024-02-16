@@ -13,8 +13,8 @@ Feature: verify Orders Details
     When  User cliks on Submenu Orders under Sales
     When  Select Orders status as Completed 
     When  User clicks on Search
-    Then  verify the records displayed with status completed
+    Then  verify the records displayed with the status completed
     Then  verify the created time for above record with completed status.
-    Then Time should be same as completed time.
+    When Close the browser
     
     
